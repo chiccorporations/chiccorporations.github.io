@@ -1,3 +1,9 @@
-var dB = document.body;
+function setup(){
+  createCanvas(displayWidth, displayHeight);
+  
+  background(255);
+}
 
-dB.getElementsByTagName("p").innerHTML = 'test';
+function draw(){
+  
+}

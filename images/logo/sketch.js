@@ -1,9 +1,12 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(displayWidth, displayHeight);
   background(255);
-  //strokeWeight(3);
+  textAlign(CENTER);
   
-  for(var x = 0; x < width; x += 0.001){
-    point(x*100, 500*noise(x)+height/2)
-  }
+  
+  stroke();
+  fill(0, 0);
+  textFont('Garamond', 35)
+  
+  text('Chic Corporations', width/2, height/2);
 }
