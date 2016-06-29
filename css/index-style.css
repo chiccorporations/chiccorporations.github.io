@@ -1,16 +1,3 @@
-#homePage-title {
-  
-  background: yellow;
-  color: black;
-  
-  
-  font-size: 1.5em;
-  
-  
-  padding: 0px;
-  
-  width: 10em;
-  border: solid 2px black;
+body {
+  background-color: rgba(135, 206, 235, 0.9);
 }
-
-body {}
