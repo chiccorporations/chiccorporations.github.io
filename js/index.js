@@ -1,7 +1,5 @@
 function setup(){
-  createCanvas(displayWidth, displayHeight);
-  
-  background(255);
+  noCanvas();
 }
 
 function draw(){
