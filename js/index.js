@@ -1,19 +1,15 @@
 function setup() {
   createCanvas(displayWidth, displayHeight - 105);
 
-  fill(255, 10);
-  strokeWeight(5);
-  stroke(255, 30);
-
-  for (var i = 0; i < width; i += width / 30) {
-
-
-    for (var j = 0; j < height; j += height / 30) {
-      if (i > width/30+1 && j > height/30 +1) {
-        drawRect(i + random(-10, 10), j + random(-10, 10), i + random(3, 5), j + random(3, 5));
-      } else{
-        drawRect(i + random(-10, 10), j + random(-10, 10), i + random(3, 5), j + random(3, 5));
-      }
+  fill(255, 15);
+  strokeWeight(3);
+  stroke(255, 15);
+  
+  var num = round(random(20, 70));
+  
+  for (var i = 0; i < width; i += width / num) {
+    for (var j = 0; j < height; j += height / num) {
+      drawRect(i + random(-15, 15), j + random(-15, 15), i + random(-15, 15), j + random(-15, 15), random(6));
     }
   }
 }
@@ -22,12 +18,16 @@ function draw() {
 
 }
 
-function drawRect(x, y, w, h) {
+function drawRect(x, y, w, h, r) {
+  var radius;
+  
   push();
-
+  
   //rotate(radians(random(360)));
+  radius = r || 0;
+  
   translate(x, y);
-  rect(0, 0, w, y);
+  rect(0, 0, w, h);
   pop();
 }
 
