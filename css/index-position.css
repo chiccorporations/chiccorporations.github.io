@@ -3,16 +3,12 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-#image-heading{
+#image-heading {
   margin: 0px;
   width: 100%;
   height: auto;
-  
-  
-
-  
 }
