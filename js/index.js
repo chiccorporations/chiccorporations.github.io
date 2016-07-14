@@ -11,11 +11,11 @@ function setup() {
   strokeWeight(3);
   stroke(255, 15);
 
-  var num = Math.round(Math.random(20, 70));
+  var num = round(random(20, 70));
 
   for (var i = 0; i < w; i += w / num) {
     for (var j = 0; j < h; j += h / num) {
-      drawRect(i + Math.random(-15, 15), j + Math.random(-15, 15), i + Math.random(-15, 15), j + Math.random(-15, 15), Math.random(6));
+      drawRect(i + random(-15, 15), j + random(-15, 15), i + random(-15, 15), j + random(-15, 15), random(6));
     }
   }
 }

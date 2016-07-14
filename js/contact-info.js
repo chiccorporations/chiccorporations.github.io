@@ -10,7 +10,7 @@ function setup() {
   email = createInput();
   comment = createInput();
   button = createButton('click');
-  var link = createA('mailto:jimohkevin@gmail.com?Subject=new%20order%20placed&body=test email', 'hey', '_blank');
+  var link = createA('mailto:jimohkevin@gmail.com?Subject=new%20order%20placed&body=test%20email', 'hey', '_top');
   
 
 }
