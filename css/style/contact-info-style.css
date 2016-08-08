@@ -1,0 +1,10 @@
+input {
+  
+}
+
+#contact-form {
+  border: solid 2px rgb(0, 0, 0);
+  width: 40%;
+  
+  min-width: 35em !important;
+}

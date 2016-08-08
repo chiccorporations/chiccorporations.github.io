@@ -20,10 +20,13 @@ body {
   background-color: black;
   
   border: solid 5px rgba(0, 200, 200, 1);
+  
+  min-height: 3em !important;
 }
 
 #logo {
-  width: 10%;
+  width: 5%;
+  min-width: 5em !important;
   height: auto;
 }
 
@@ -32,7 +35,7 @@ body {
 }
 
 #company-name {
-  
+  color: white;
 }
 
 #everything-except-h-and-f {

@@ -1,9 +1,12 @@
 body {
-  
+  min-width: 35em !important;
 }
 
 .top-buttons {
-  padding: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+  margin-top: 1.35em;
 }
 
 .top-buttons:hover {
@@ -11,7 +14,11 @@ body {
 }
 
 .button-links {
-  margin-right: 10%;
+  margin-right: 4%;
+  margin-left: 0;
+  margin-top: 2em;
+  
+  text-decoration: none;
 }
 
 #header {
@@ -19,17 +26,11 @@ body {
 }
 
 #logo {
-  position: absolute;
-  
-  transform: translate(-100%, -25%);
+  float: left;
 }
 
-#home-link {
-  
-}
-
-#company-name {
-  text-align: center;
+#home {
+  margin-left: 8%;
 }
 
 #everything-except-h-and-f {
