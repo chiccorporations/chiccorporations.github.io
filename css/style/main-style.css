@@ -1,0 +1,42 @@
+body {
+  
+}
+
+.top-buttons {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+}
+
+.top-buttons:hover {
+  
+}
+
+.button-links {
+  
+}
+
+#header {
+  background-color: black;
+  
+  border: solid 5px rgba(0, 200, 200, 1);
+}
+
+#logo {
+  width: 10%;
+  height: auto;
+}
+
+#home-link {
+  
+}
+
+#company-name {
+  
+}
+
+#everything-except-h-and-f {
+  
+}
+
+#footer {}

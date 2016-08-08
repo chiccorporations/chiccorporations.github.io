@@ -1,0 +1,39 @@
+body {
+  
+}
+
+.top-buttons {
+  padding: 0;
+}
+
+.top-buttons:hover {
+  
+}
+
+.button-links {
+  margin-right: 10%;
+}
+
+#header {
+  
+}
+
+#logo {
+  position: absolute;
+  
+  transform: translate(-100%, -25%);
+}
+
+#home-link {
+  
+}
+
+#company-name {
+  text-align: center;
+}
+
+#everything-except-h-and-f {
+  
+}
+
+#footer {}
