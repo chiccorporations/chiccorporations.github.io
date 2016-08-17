@@ -3,21 +3,21 @@ var w, h;
 
 
 function setup() {
-  createCanvas(displayWidth, displayHeight - 105);
-  w = width;
-  h = height;
+  // createCanvas(displayWidth, displayHeight - 105);
+  // w = width;
+  // h = height;
 
-  fill(255, 15);
-  strokeWeight(3);
-  stroke(255, 15);
+  // fill(255, 15);
+  // strokeWeight(3);
+  // stroke(255, 15);
 
-  var num = round(random(20, 70));
+  // var num = round(random(20, 70));
 
-  for (var i = 0; i < w; i += w / num) {
-    for (var j = 0; j < h; j += h / num) {
-      drawRect(i + random(-15, 15), j + random(-15, 15), i + random(-15, 15), j + random(-15, 15), random(6));
-    }
-  }
+  // for (var i = 0; i < w; i += w / num) {
+  //   for (var j = 0; j < h; j += h / num) {
+  //     drawRect(i + random(-15, 15), j + random(-15, 15), i + random(-15, 15), j + random(-15, 15), random(6));
+  //   }
+  // }
 }
 
 function draw() {
