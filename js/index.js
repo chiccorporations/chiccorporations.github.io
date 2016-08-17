@@ -4,10 +4,8 @@ function preload(){
 
 function setup() {
   loadImage("../images/background.png", setScreen);
-}
-
-function draw() {
-
+  
+  console.log('changes added');
 }
 
 function setScreen(img){
