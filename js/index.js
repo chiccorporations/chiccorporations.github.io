@@ -5,7 +5,7 @@ function preload(){
 function setup() {
   loadImage("../images/background.png", setScreen);
   
-  console.log('changes added');
+  console.log('picture enlarged');
 }
 
 function setScreen(img){
