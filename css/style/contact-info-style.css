@@ -1,10 +1,49 @@
+label {
+  
+}
+
 input {
   
 }
 
+hr {
+  visibility: hidden;
+}
+
+h3 {
+  background-color: rgb(0, 0, 0);
+  
+  color: white;
+  margin-top: 0;
+  
+  border-bottom: 2px rgb(34, 144, 207);
+}
+
 #contact-form {
-  border: solid 2px rgb(0, 0, 0);
+  border: solid 5px rgb(0, 0, 0);
   width: 40%;
   
   min-width: 35em !important;
+  
+  background-color: white;
+  
+  padding: 4px;
+}
+
+#name {
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#last-name {
+  margin-left: 1em;
+}
+
+#emaildiv {
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
