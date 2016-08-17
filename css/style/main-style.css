@@ -2,6 +2,10 @@ body {
   
 }
 
+canvas {
+  
+}
+
 .top-buttons {
   
   
@@ -33,7 +37,7 @@ body {
 }
 
 #logo {
-  width: 10%;
+  width: 9em;
   min-width: 5em !important;
   height: auto;
 }

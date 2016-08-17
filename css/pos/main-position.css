@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+canvas {
+  position: fixed;
+  z-index: -9;
+}
+
 .top-buttons {
   padding-bottom: 0;
   margin-bottom: 0;
